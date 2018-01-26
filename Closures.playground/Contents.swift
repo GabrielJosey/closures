@@ -31,10 +31,7 @@ let voidClosure: () -> Void
 // DO NOT USE CLOSURES IN PLACE OF FUNCTIONS AS A DEFAULT. A function does not exist (is not instantiated) till it is called. A closure has a built in initializers and so it already exists. This causes it to use more memory.
 
 
-func printName(name: String) {
-    print("Devan")
-    
-}
+
 
 
 
